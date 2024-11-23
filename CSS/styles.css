@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.fondo-azul {
+    background-color: #003366;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.contendor {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+
+.tb {
+    display: table;
+    border-collapse: collapse;
+}
+
+.fila {
+    display: table-row;
+}
+
+.logo {
+    display: table-cell;
+    margin-right: auto;
+    width: 33%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+
+.buscador {
+    display: table-cell;
+    margin: 0px auto;
+    width: 33%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.conedor-buscador {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+input.texBusqueda {
+    font-size: 14px;
+    height: 36px;
+    width: 260px;
+    padding: 0px 4px;
+    border: 3px solid #125cb7;
+    border-radius: 5px;
+    transition: border 0.2s;
+
+}
+
+.texBusqueda:hover {
+    border: 3px solid #feca4e;
+}
+
+.placeholder {
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    cursor: wait;
+    background-color: currentcolor;
+    opacity: .5;
+}
+
+
+.goBuscar {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: none;
+    background-color: #125cb7;
+    transition: background-color 0.2s;
+    border-radius: 5px;
+}
+
+.goBuscar:hover {
+    background-color: #125cb7;
+    cursor: pointer;
+    color: #feca4e;
+}
+
+
+.goBuscar_sec {
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 7px 10px;
+    border: none;
+    background-color: #003366;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.goBuscar_sec:hover {
+    background: #125cb7;
+    cursor: pointer;
+    color: #feca4e;
+}
+
+
+.conedor-buscador {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding: 7px 10px;
+    border: none;
+    color: #ffffff;
+}
+
+.iniciasesion {
+    display: table-cell;
+    margin-left: auto;
+    width: 33%;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.contenedor-menu {
+    background-color: #041e3d;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu-categoria ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-categoria ul li {
+    margin: auto;
+}
+
+.menu-categoria ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.menu-categoria ul li a:hover {
+    background-color: white;
+    color: #003366;
+}
+
+.menu2 {
+    margin-left: 100px;
+}
+
+.menu2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #003366;
+}
+
+.menu2 ul li {
+    margin: auto;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu2 ul li a:hover {
+    background-color: white;
+    color: #003366;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contendor {
+        width: 95%;
+    }
+
+    .logo,
+    .buscador,
+    .iniciasesion {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .buscador input.texBusqueda {
+        width: 80%;
+    }
+
+    .contenedor-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+        margin: 0 auto;
+
+    }
+
+    .menu2 {
+        margin-left: 0;
+    }
+
+    .menu2 ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+}

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="./CSS/carrucel.css">
+  <link rel="stylesheet" href="./CSS/navbar.css">
+  <link rel="stylesheet" href="./CSS/album.css">
+  <link rel="stylesheet" href="./CSS/fooder.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="fondo-azul">
+    <div class="contendor">
+      <div class="tb">
+        <div class="fila">
+          <div class="logo">
+            <a href="#">
+              <img src="./assets/images/image.png" alt="logoEtick">
+            </a>
+          </div>
+
+          <div class="buscador">
+            <div class="conedor-buscador">
+              <input type="text" class="texBusqueda" placeholder="Busqueda de artista y/o evento" title="busca eventos">
+              <input type="button" value="buscar" class="goBuscar">
+            </div>
+          </div>
+
+          <div class="iniciasesion">
+            <div class="conedor-buscador">
+              <div class="goBuscar">
+                inicia sesion
+              </div>
+              <div class="goBuscar_sec">
+                refistrate
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contenedor-menu ">
+    <div class="menu-categoria">
+      <ul>
+        <li><a href="#">Conciertos</a></li>
+        <li><a href="#">Deportes</a></li>
+        <li><a href="#">Teatro</a></li>
+        <li><a href="#">Culturales</a></li>
+        <li><a href="#">Comedia</a></li>
+        <li><a href="#">Familiares</a></li>
+        <li><a href="#">Congresos</a></li>
+        <li><a href="#">Festivales</a></li>
+
+      </ul>
+    </div>
+    <div class="menu2">
+      <ul>
+        <li><a href="">Punto de Venta</a></li>
+        <li><a href="">Ayuda</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="carousel-contedor">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn.eticket.co/imagenes/imgEventos/240814151907590_estelar_5ESTELAR.jpg"
+            class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.eticket.co/imagenes/imgEventos/240926085728450_estelar_ESTELAR.jpg"
+            class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.eticket.co/imagenes/imgEventos/241031195215889_estelar_ESTELAR.jpg"
+            class="d-block w-100" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.eticket.co/imagenes/artistas/240917093555894_performer_img_Estelar.jpg"
+            class="d-block w-100" alt="Slide 4">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.eticket.co/imagenes/imgEventos/240919220404473_estelar_estelar.png"
+            class="d-block w-100" alt="Slide 5">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.eticket.co/imagenes/imgEventos/241113092158105_estelar_ESTELAR.jpg"
+            class="d-block w-100" alt="Slide 6">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-item">
+        <input type="checkbox" id="eventos-toggle" class="dropdown-toggle">
+        <label for="eventos-toggle" class="dropdown-btn">
+          ☰ TODOS LOS EVENTOS ▼
+        </label>
+        <div class="dropdown-content">
+          <a href="#">Conciertos</a>
+          <a href="#">Festivales</a>
+          <a href="#">Teatro</a>
+          <a href="#">Deportes</a>
+          <a href="#">Exposiciones</a>
+          <a href="#">Conferencias</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <input type="checkbox" id="colombia-toggle" class="dropdown-toggle">
+        <label for="colombia-toggle" class="dropdown-btn">
+          <i class="fas fa-map-marker-alt location-icon"></i> TODO COLOMBIA ▼
+        </label>
+        <div class="dropdown-content">
+          <a href="#">Buenaventura</a>
+          <a href="#">Bogota</a>
+          <a href="#">Medellin</a>
+          <a href="#">Cali</a>
+          <a href="#">Barranquilla</a>
+          <a href="#">Cartagena</a>
+          <a href="#">Santa Marta</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+
+    <div class="album py-5 bg-light">
+
+      <div class="container">
+        <div class="fondo">
+          <h2>EVENTOS ENT TU CIUDAD</h2>
+        </div>
+
+        <div class="event-container">
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241114090853904_performer_img2_CAT2DRUNK.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241018080458574_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241031113922247_performer_img2_ETICKET_AB_CTA2.jpg"
+                alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241114201104600_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241021152206057_performer_img2_cat2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/240724122710569_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241009195321506_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241001101312749_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241011143716200_performer_img_Estelar.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241010124611824_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/240809143341078_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/241001150753988_performer_img2_SHAKPIEZAS_BOG_CTA2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/240924082557108_performer_img2_SIDDHARTHA_CTA2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/240918111438712_performer_img2_CAT2.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="https://cdn.eticket.co/imagenes/artistas/240307072456663_performer_img2_cta2cepeda.jpg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="./assets/images/descarga.jpeg" alt="#">
+            </div>
+            <h3>TITULO</h3>
+            <p>CIUDAD</p>
+            <button>Ver Eventos</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Conciertos</a></li>
+          <li><a href="#">Deportes</a></li>
+          <li><a href="#">Teatro</a></li>
+          <li><a href="#">Culturales</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <ul>
+          <li><a href="#">¡Recoge tus boletos!</a></li>
+          <li><a href="#">Ubicacion de Puntos de venta</a></li>
+          <li><a href="#">Suscribete al boletin</a></li>
+          <li><a href="#">Promociones</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <div class="whatsapp-section">
+          <a href="#"><img src="assets/icon/whatsapp.gif" alt="whatsapp"></a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><img src="./assets/icon/twitter.png" alt="twitter">Siguenos</a>
+          <a href="#" class="social-link"> <img src="./assets/icon/instagram.png" alt="instagram"> Miranos</a>
+          <a href="#" class="social-link"> <img src="./assets/icon/facebook.png" alt="facebook">Quierenos</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024</p>
+    </div>
+  </footer>
+</body>
+
+</html>
