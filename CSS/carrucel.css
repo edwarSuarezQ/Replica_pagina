@@ -1,5 +1,5 @@
 .carousel-contedor {
-  background-color: #003366;
+  background-color:  #041e3d;;
   margin-bottom: 10px;
   padding: 15px;
   display: flex;
@@ -12,10 +12,10 @@
 
 .carousel {
   width: 100%;
-  max-width: 1209px;
+  max-width: 1207px;
   height: 50vh;
   height: 400px;
-  margin-top: -13px;
+  margin-top: -30px;
   overflow: hidden;
 }
 
