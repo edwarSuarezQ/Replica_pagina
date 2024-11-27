@@ -150,6 +150,12 @@ input.texBusqueda {
     justify-content: center;
     font-weight: bold;
     font-size: 14px;
+    max-width: 1206px;
+    margin: 0 auto;
+}
+
+.fondo-menu{
+    background-color: #041e3d;
 }
 
 .menu-categoria ul {
