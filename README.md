@@ -11,13 +11,20 @@ El objetivo de esta actividad es que los estudiantes repliquen la página web de
 - Flexbox y Grid: Implementa Flexbox y Grid para organizar el contenido de manera eficiente y responsiva.
 
 - Bootstrap: Usa Bootstrap para lograr una estructura responsiva y utilizar componentes predefinidos de forma eficiente, como botones, tarjetas, etc.
-Entregables:
+  Entregables:
 
-## Repositorio en GitHub: 
+## Repositorio en GitHub:
+
 Sube tu proyecto a un repositorio en GitHub y proporciona el enlace al repositorio.
 
-## GitHub Pages: 
+## GitHub Pages:
+
 Publica tu proyecto utilizando GitHub Pages y comparte el enlace de la página publicada para su revisión.
 
-## Informe de desarrollo: 
+## Informe de desarrollo:
+
 Elabora un informe detallado en el que documentes el proceso de desarrollo de la página, las decisiones de diseño que tomaste, las tecnologías utilizadas y cualquier reto que hayas enfrentado durante el desarrollo.
+
+---
+
+Resultado: https://edwarsuarezq.github.io/Replica_pagina/
