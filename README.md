@@ -27,4 +27,4 @@ Elabora un informe detallado en el que documentes el proceso de desarrollo de la
 
 ---
 
-Resultado: https://edwarsuarezq.github.io/Replica_pagina/
+[Resultado](https://edwarsuarezq.github.io/Replica_pagina/)
